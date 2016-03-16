@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pieza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -78,6 +79,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="pieces\bb.png" />
+    <EmbeddedResource Include="pieces\bk.png" />
+    <EmbeddedResource Include="pieces\bn.png" />
+    <EmbeddedResource Include="pieces\bp.png" />
+    <EmbeddedResource Include="pieces\bq.png" />
+    <EmbeddedResource Include="pieces\br.png" />
+    <EmbeddedResource Include="pieces\wb.png" />
+    <EmbeddedResource Include="pieces\wk.png" />
+    <EmbeddedResource Include="pieces\wn.png" />
+    <EmbeddedResource Include="pieces\wp.png" />
+    <EmbeddedResource Include="pieces\wq.png" />
+    <EmbeddedResource Include="pieces\wr.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
